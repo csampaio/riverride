@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: d971c0f303365ad49aa992e39f1079fb
+timeCreated: 1467234243
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: battleship_0
+    21300002: battleship_1
+    21300004: battleship_2
+    21300006: battleship_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: battleship_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 375
+        width: 549
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 27}
+        - {x: -53.5, y: 22}
+        - {x: -53.5, y: 19}
+        - {x: -54.5, y: 18}
+        - {x: -54.5, y: 15}
+        - {x: -55.5, y: 14}
+        - {x: -55.5, y: 11}
+        - {x: -56.5, y: 10}
+        - {x: -56.5, y: 7}
+        - {x: -57.5, y: 6}
+        - {x: -56.5, y: 9}
+        - {x: -56.5, y: 12}
+        - {x: -55.5, y: 13}
+        - {x: -55.5, y: 16}
+        - {x: -54.5, y: 17}
+        - {x: -54.5, y: 20}
+        - {x: -53.5, y: 21}
+        - {x: -53.5, y: 27}
+        - {x: -55.5, y: 29}
+        - {x: -59.5, y: 30}
+        - {x: -63.5, y: 20}
+        - {x: -66.5, y: 22}
+        - {x: -88.5, y: 35}
+        - {x: -98.5, y: 28}
+        - {x: -105.5, y: 11}
+        - {x: -125.5, y: 62}
+        - {x: -181.5, y: 62}
+        - {x: -274.5, y: -9}
+        - {x: -274.5, y: -49}
+        - {x: -262.5, y: -62}
+        - {x: 237.5, y: -62}
+        - {x: 259.5, y: -37}
+        - {x: 259.5, y: -18}
+        - {x: -46.5, y: 40}
+      - - {x: 271.5, y: -18}
+        - {x: 273.5, y: -20}
+        - {x: 274.5, y: -20}
+        - {x: 274.5, y: -15}
+        - {x: 272.5, y: -15}
+    - name: battleship_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 245
+        width: 498
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71, y: -24}
+        - {x: 71, y: -33}
+        - {x: 71, y: -11}
+        - {x: -12, y: 64}
+        - {x: -74, y: 64}
+        - {x: -84, y: 31}
+        - {x: -78, y: 14}
+        - {x: -73, y: 9}
+        - {x: -73, y: 5}
+        - {x: -73, y: 7}
+        - {x: -79, y: 14}
+        - {x: -82, y: 15}
+        - {x: -93, y: 10}
+        - {x: -96, y: 3}
+        - {x: -94, y: -3}
+        - {x: -93, y: -8}
+        - {x: -93, y: -11}
+        - {x: -92, y: -13}
+        - {x: -93, y: -13}
+        - {x: -93, y: -8}
+        - {x: -97, y: -1}
+        - {x: -107, y: -5}
+        - {x: -110, y: -16}
+        - {x: -110, y: -19}
+        - {x: -110, y: -9}
+        - {x: -249, y: -19}
+        - {x: -249, y: -53}
+        - {x: -243, y: -64}
+        - {x: 218, y: -64}
+        - {x: 249, y: -37}
+        - {x: 249, y: -21}
+        - {x: 73, y: -16}
+    - name: battleship_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 131
+        width: 462
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: 53}
+        - {x: -72, y: 53}
+        - {x: -231, y: -15}
+        - {x: -231, y: -38}
+        - {x: -210, y: -53}
+        - {x: 209, y: -53}
+        - {x: 216, y: -51}
+        - {x: 231, y: -25}
+        - {x: 231, y: -12}
+    - name: battleship_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 14
+        width: 408
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 0}
+        - {x: 79, y: -13}
+        - {x: 77, y: -15}
+        - {x: 76, y: -24}
+        - {x: 72, y: -27}
+        - {x: 62, y: 30}
+        - {x: 24, y: 50}
+        - {x: -78, y: 50}
+        - {x: -204, y: 10}
+        - {x: -204, y: 6}
+        - {x: -181, y: -20}
+        - {x: -179, y: -22}
+        - {x: -194, y: -12}
+        - {x: -204, y: -7}
+        - {x: -204, y: -42}
+        - {x: -203, y: -50}
+        - {x: 192, y: -50}
+        - {x: 200, y: -42}
+        - {x: 204, y: -33}
+        - {x: 204, y: -21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
