@@ -6,6 +6,7 @@ public class Patrol : MonoBehaviour {
     public Transform leftLimit;
     public Transform rightLimit;
     public float patrolSpeed = 1;
+    public bool stopPatrol = false;
     float hmax = 0;
     float hmin = 0;
     float offset = 0;
@@ -24,7 +25,7 @@ public class Patrol : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 pos = transform.position;
-        if (pos.x > hmin && pos.x < hmax)
+        if (pos.x > hmin && pos.x < hmax && !stopPatrol)
         {            
             SpriteRenderer renderer = GetComponent<SpriteRenderer>();            
             if (pos.x + offset > hmax )

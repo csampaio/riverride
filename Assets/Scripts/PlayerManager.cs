@@ -7,8 +7,18 @@ public class PlayerManager : MonoBehaviour {
     {
         if (!other.tag.Equals("bullet"))
         {
-            Destroy(this.gameObject);
+            Animator animator = GetComponent<Animator>();
+            animator.SetTrigger("kaboon");
+            GetComponentInChildren<GunController>().autoFire = false;
+            Invoke("KillPlayer", 1);
         }
     }
+
+    void KillPlayer()
+    {
+        GameManager.Instance.GameOver();
+    }
+
+    
 
 }

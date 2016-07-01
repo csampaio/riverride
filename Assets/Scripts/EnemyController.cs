@@ -3,22 +3,24 @@ using System.Collections;
 
 public class EnemyController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public int score = 100;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("bullet") || other.CompareTag("Player"))
+        if (other.CompareTag("bullet"))
         {
-            Destroy(this.gameObject);
-            Destroy(other.gameObject);
+            GameManager.Instance.AddScore(score);
+            Animator animator = GetComponent<Animator>();
+            animator.SetTrigger("kaboon");
+            GetComponent<Patrol>().stopPatrol = true;
+            GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(other.gameObject);            
+            Invoke("KillEnemy", 3);
         }
+    }
+
+    public void KillEnemy()
+    {
+        Destroy(this.gameObject);
     }
 }
